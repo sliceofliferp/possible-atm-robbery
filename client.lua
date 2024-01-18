@@ -23,7 +23,7 @@ RegisterNetEvent('police:SetCopCount', function(amount)
 end)
 
 local function PoliceCall()
-     exports['ps-dispatch']:ATMHacking()
+    exports('ATMHacking', ATMHacking)
 end
 
 function LoadAnim(dict)
